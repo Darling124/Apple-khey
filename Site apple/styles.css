@@ -1,0 +1,133 @@
+/* Style global */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f5f5f7;
+}
+
+/* En-tête */
+header {
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin: 0 10px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #007aff;
+    font-weight: 500;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section Hero */
+.hero {
+    background: url('https://via.placeholder.com/1500x600') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero-content .btn {
+    background: #007aff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.hero-content .btn:hover {
+    background: #005bb5;
+}
+
+/* Section Produits */
+.products {
+    padding: 50px 20px;
+    text-align: center;
+    background: #fff;
+}
+
+.products h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product-item {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.product-item h3 {
+    margin: 15px 0 10px;
+    font-size: 1.5rem;
+}
+
+/* Pied de page */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
